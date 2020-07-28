@@ -41,6 +41,6 @@ Our estimate would then be: ![formula](https://render.githubusercontent.com/rend
 10% 50% 70% 
 1.0 1.5 2.0
 >>> w_equal <- c(1, 1, 1)
->>> wtd.quantile(data, probs=probs, weights=weights) == wtd.quantile(data, probs=probs, weights=w_equal)
+>>> wtd.quantile(data, probs=probs,) == wtd.quantile(data, probs=probs, weights=w_equal)
 TRUE
 ```
